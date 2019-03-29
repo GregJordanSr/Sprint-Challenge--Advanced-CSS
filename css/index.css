@@ -162,14 +162,14 @@ p {
 }
 .nav-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: stretch;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
-@media (max-width: 500px) {
-  .nav-header h1 {
-    margin-bottom: 2%;
-  }
+.nav-header h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
 }
 .nav-header nav {
   display: flex;
@@ -205,9 +205,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.container .home {
-  max-width: 80%;
-  margin: auto;
+@media (max-width: 500px) {
+  .container .home {
+    max-width: 80%;
+    margin: auto;
+  }
 }
 .container .home .intro h2 {
   padding: 15px;
