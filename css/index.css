@@ -167,9 +167,19 @@ p {
   flex-direction: column;
   margin-bottom: 1rem;
 }
+@media (max-width: 500px) {
+  .nav-header {
+    width: 80%;
+  }
+}
 .nav-header h1 {
   font-size: 4rem;
   margin-bottom: 3rem;
+}
+@media (max-width: 500px) {
+  .nav-header h1 {
+    width: 80%;
+  }
 }
 .nav-header nav {
   display: flex;
@@ -178,7 +188,9 @@ p {
 }
 @media (max-width: 500px) {
   .nav-header nav {
-    width: 90%;
+    width: 80%;
+    justify-content: space-around;
+    align-content: center;
   }
 }
 .nav-header nav a {
@@ -206,58 +218,68 @@ footer {
   align-items: center;
 }
 @media (max-width: 500px) {
-  .container .home {
+  .home {
     max-width: 80%;
     margin: auto;
   }
 }
-.container .home .intro h2 {
+.home .intro h2 {
   padding: 15px;
 }
-.container .home .intro p {
+.home .intro p {
   padding: 0 15px;
 }
-.container .home .space-images {
+.home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  border-radius: 30%;
 }
-.container .home .space-images img {
+.home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.container .home .visit-planets {
+.home .visit-planets {
   padding: 15px;
 }
-.container .home .visit-planets h3 {
+.home .visit-planets h3 {
   margin-top: 11px;
 }
-.container .home .visit-planets p {
+.home .visit-planets p {
   margin-top: 13px;
 }
-.container .home .walk {
+.home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
-.container .home .walk .walk-text {
+.home .walk .walk-text {
   width: 50%;
 }
-.container .home .walk .walk-text h3 {
+.home .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.container .home .walk .walk-text p {
+.home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.container .home .walk .walk-img {
+.home .walk .walk-text .btn .btn {
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background: #22283A;
+  border-radius: 7px;
+  color: #F6F7F8;
+}
+.home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.container .home .walk .walk-img img {
+.home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
