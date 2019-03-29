@@ -266,20 +266,62 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn .btn {
-  width: 10px;
-  display: flex;
-  justify-content: center;
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
   padding: 2%;
-  background: #22283A;
-  border-radius: 7px;
-  color: #F6F7F8;
+  width: 100px;
+  border: 1px solid black;
 }
-.home .walk .walk-img {
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    padding: 5%;
+  }
+}
+.home .walk .btn:hover {
+  background: white;
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  .home .header-img img {
+    width: 100%;
+  }
+  .home .sky {
+    display: none;
+  }
+  .home .launch {
+    display: none;
+  }
+  .home .home .space-imgs img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .home .gowalk {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 2%;
+  }
+  .home .home .gowalk .walk-img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .home .home .gowalk .gowalk-text {
+    width: 100%;
+  }
+}
+.home .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
