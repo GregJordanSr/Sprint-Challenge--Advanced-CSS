@@ -50,7 +50,7 @@ Preprocessing is when CSS can be written with a special syntax that makes it eas
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite concept is the ease of it's readability and reusability.  The concept that has been giving me the most trouble is creating mixins and parametric mixins and using them correctly.
+My favorite concept is the ease of it's readability and reusability.  The concept that has been giving me the most trouble is creating mixins and parametric mixins and using them correctly.  Correct
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
