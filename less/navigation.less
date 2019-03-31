@@ -9,16 +9,16 @@
 
     @media @phone {
         width: 100%;
-    } 
+        } 
+
     h1 {
         font-size: 4rem;
         margin-bottom: 3rem;
 
         @media @phone {
-            width: 80%;
-        
-    } 
-    }
+        width: 80%;
+            } 
+        } // h1
 
     nav {
         display: flex;
@@ -26,25 +26,25 @@
         width: 45%;
 
         @media @phone {
-            width: 100%;
-           justify-content: space-around;
-           align-content: center;
-        }
+        width: 100%;
+        justify-content: space-around;
+        align-content: center;
+            }
 
 
         a {
             font-size: 1.5rem;
             text-decoration: none;
+
             &:hover {
-                text-decoration: underline;
-                text-decoration-color: black;
+            text-decoration: underline;
+            text-decoration-color: black;
+                }
+            } // a
+        } // nav
+
+            @media @phone {
+            display: flex;
+            width: 90%;
             }
-        }
-    }
-    @media @phone {
-        display: flex;
-        
-        width: 90%;
-        
-        }
-    }
+        } // .nav-header
