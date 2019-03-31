@@ -9,16 +9,16 @@
 
     @media @phone {
         width: 100%;
-        } 
+    }
 
     h1 {
         font-size: 4rem;
         margin-bottom: 3rem;
 
         @media @phone {
-        width: 80%;
-            } 
-        } // h1
+            width: 80%;
+        } 
+    } 
 
     nav {
         display: flex;
@@ -29,7 +29,7 @@
         width: 100%;
         justify-content: space-around;
         align-content: center;
-            }
+        }
 
 
         a {
@@ -37,14 +37,9 @@
             text-decoration: none;
 
             &:hover {
-            text-decoration: underline;
-            text-decoration-color: black;
-                }
-            } // a
-        } // nav
-
-            @media @phone {
-            display: flex;
-            width: 90%;
+                text-decoration: underline;
+                text-decoration-color: black;
             }
-        } // .nav-header
+        } 
+    } // nav
+} // .nav-header
